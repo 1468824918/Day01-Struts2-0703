@@ -9,6 +9,9 @@ public class CustomAction extends ActionSupport{
     /**从Actionsupport类继承下来的动作方法
      * 当struts.xml中的action标签没有配置method属性时会调用的方法
      * **/
+
+    //加注释啦
+    //加注释啦
     @Override
     public String execute() throws Exception {
         return SUCCESS;
